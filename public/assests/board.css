@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+td {
+  height: 22px;
+  width: 22px;
+  border: 1px solid green;
+  margin: 0;
+}
+.path,
+.target {
+  background-color: green;
+}
+.unvisited {
+  background-color: #cfcfcf;
+}
+.start {
+  background-color: #000099;
+}
+#board {
+  overflow: hidden;
+}
